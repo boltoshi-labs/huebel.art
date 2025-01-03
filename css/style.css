@@ -583,3 +583,21 @@ footer.bg-pattern{background-position: center 125px; background: #f2f8fe url(../
     height: 50px; /* Adjust height as needed */
     width: 100%; /* Ensures the spacer spans the full width */
 }
+
+
+.custom-width {
+    width: 500px !important; /* Force the widget width to 600px */
+    max-width: 100%; /* Ensure it doesn't overflow on smaller screens */
+    display: block; /* Make sure the widget is block-level */
+}
+
+.widget-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0; /* Adjust spacing as needed */
+    text-align: center;
+}
+
