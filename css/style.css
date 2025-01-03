@@ -578,3 +578,8 @@ footer.bg-pattern{background-position: center 125px; background: #f2f8fe url(../
     max-width: 100%; /* Ensure responsiveness */
     display: block; /* Ensures it behaves as a block element */
 }
+
+.spacer {
+    height: 50px; /* Adjust height as needed */
+    width: 100%; /* Ensures the spacer spans the full width */
+}
