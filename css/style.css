@@ -549,3 +549,32 @@ footer.bg-pattern{background-position: center 125px; background: #f2f8fe url(../
 .copyright ul li:before{content: ""; position: absolute; top: 7px; right: 0; width: 2px; height: 12px;}
 .copyright ul li:last-child:before{width: 0;}
 /*----- Footer Section End -----*/
+
+
+
+/* ADD-ONS FROM USERTON - 2025-01-02*/
+
+.widget-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0; /* Optional: Adjust for spacing above and below */
+    text-align: center; /* Ensure the text inside is centered */
+}
+
+.wide-widget-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Full width for the container */
+    margin: 0 auto;
+    padding: 20px 0; /* Optional vertical spacing */
+}
+
+.custom-width {
+    width: 700px !important; /* Force the widget to be 700px wide */
+    max-width: 100%; /* Ensure responsiveness */
+    display: block; /* Ensures it behaves as a block element */
+}
