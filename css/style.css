@@ -584,7 +584,6 @@ footer.bg-pattern{background-position: center 125px; background: #f2f8fe url(../
     width: 100%; /* Ensures the spacer spans the full width */
 }
 
-
 .custom-width {
     width: 500px !important; /* Force the widget width to 600px */
     max-width: 100%; /* Ensure it doesn't overflow on smaller screens */
@@ -600,4 +599,42 @@ footer.bg-pattern{background-position: center 125px; background: #f2f8fe url(../
     padding: 20px 0; /* Adjust spacing as needed */
     text-align: center;
 }
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-links li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.footer-links li a:hover {
+    color: #16d5ff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.footer-bottom-text {
+    margin-top: 30px;
+    text-align: left;
+    max-width: 800px;
+}
+
+.footer-bottom-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #000000;
+    margin: 0;
+}
+
 
