@@ -638,3 +638,21 @@ html {
 }
 
 
+.bolt-icon-header {
+    width: 40px;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+    .bolt-icon-header {
+        display: none;
+    }
+    
+    /* Add these styles for mobile button */
+    .btn {
+        padding: 8px 16px;  /* Smaller padding */
+        font-size: 14px;    /* Smaller font */
+        min-width: auto;    /* Remove minimum width if any */
+    }
+}
